@@ -59,27 +59,38 @@ img {
 }
 
 .btn {
-  /* border: 1px solid ; */
   font-family: "Lexend Deca", sans-serif;
   font-size: 13px;
   text-align: center;
   padding: 12px 23px;
   border-radius: 25px;
-  transition: all 0.1s;
 }
 .btn:hover {
-  transform: scale(1.1);
+  border: 1px solid #fff;
 }
 
 .btn-1 {
   border: 1px solid hsl(31, 77%, 52%);
   color: hsl(31, 77%, 52%);
 }
+.btn-1:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(31, 77%, 52%);
+}
 .btn-2 {
   border: 1px solid hsl(184, 100%, 22%);
   color: hsl(184, 100%, 22%);
 }
+.btn-2:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(184, 100%, 22%);
+}
 .btn-3 {
   border: 1px solid hsl(179, 100%, 13%);
   color: hsl(179, 100%, 13%);
+}
+
+.btn-3:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(179, 100%, 13%);
 }
