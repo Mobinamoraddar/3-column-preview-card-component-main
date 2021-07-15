@@ -67,6 +67,7 @@ img {
 }
 .btn:hover {
   border: 1px solid #fff;
+  cursor: pointer;
 }
 
 .btn-1 {
