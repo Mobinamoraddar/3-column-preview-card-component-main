@@ -73,10 +73,12 @@ img {
 .btn-1 {
   border: 1px solid hsl(31, 77%, 52%);
   color: hsl(31, 77%, 52%);
+ 
 }
 .btn-1:hover {
   color: hsla(0, 0%, 100%, 0.75);
   background-color: hsl(31, 77%, 52%);
+   cursor: pointer;
 }
 .btn-2 {
   border: 1px solid hsl(184, 100%, 22%);
